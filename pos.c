@@ -2,7 +2,6 @@
 int main()
 {
 double number;
-printf("\n Enter the number:",number);
 scanf("%lf",&number);
  if(number>0)
    printf("\nThe number %lf is a positive number.",number);
