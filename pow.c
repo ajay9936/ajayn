@@ -4,9 +4,9 @@
 int main()
 {
  double base,exponent,result;
-  printf("\nAnswer for entered base and exponent is: ");
     scanf("%lf",&base);
     scanf("%lf",&exponent);
+       printf("\nAnswer for entered base and exponent is: ");
 
   result=pow(base,exponent);
   printf("%.lf^%.lf=%.2lf",base,exponent,result);
